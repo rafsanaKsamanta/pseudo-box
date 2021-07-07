@@ -5,3 +5,31 @@ li:first-child {
 li:nth-child(2) {
     color: blueviolet;
 }
+
+h3::before {
+    content: 'hello ';
+}
+
+h3::after {
+    content: ' pseudo element ';
+}
+
+.swimming div {
+    border: 1px dashed palevioletred;
+    width: 200px;
+}
+
+.swimming {
+    position: relative;
+}
+
+#ring {
+    position: sticky;
+    top: 50px;
+}
+
+.dummy {
+    height: 150px;
+    width: 200px;
+    background-color: purple;
+}
